@@ -41,7 +41,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'simplecov'
   gem 'launchy' # save_and_open_page method for tests
-  gem 'capybara' # for testing using english
+  gem 'capybara' # for testing using english, have_content method, etc.
   gem 'orderly' # for expecting tests in a certain order
   gem 'shoulda-matchers' # adds testing methods to test for relationships/associations
 end
